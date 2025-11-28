@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: com.visma.testtask.TestTaskApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 27.827 s <<< FAILURE! - in com.visma.testtask.TestTaskApplicationTests
+all_active_are_returned_en  Time elapsed: 4.374 s  <<< ERROR!
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at com.visma.testtask.TestTaskApplicationTests.executeRequest(TestTaskApplicationTests.java:108)
+	at com.visma.testtask.TestTaskApplicationTests.all_active_are_returned_en(TestTaskApplicationTests.java:70)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.visma.testtask.TestTaskApplicationTests.executeRequest(TestTaskApplicationTests.java:108)
+	at com.visma.testtask.TestTaskApplicationTests.all_active_are_returned_en(TestTaskApplicationTests.java:70)
+
+all_active_are_returned_lv  Time elapsed: 4.086 s  <<< ERROR!
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at com.visma.testtask.TestTaskApplicationTests.executeRequest(TestTaskApplicationTests.java:108)
+	at com.visma.testtask.TestTaskApplicationTests.all_active_are_returned_lv(TestTaskApplicationTests.java:59)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.visma.testtask.TestTaskApplicationTests.executeRequest(TestTaskApplicationTests.java:108)
+	at com.visma.testtask.TestTaskApplicationTests.all_active_are_returned_lv(TestTaskApplicationTests.java:59)
+
+all_inactive_are_returned_en  Time elapsed: 4.112 s  <<< ERROR!
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at com.visma.testtask.TestTaskApplicationTests.executeRequest(TestTaskApplicationTests.java:108)
+	at com.visma.testtask.TestTaskApplicationTests.all_inactive_are_returned_en(TestTaskApplicationTests.java:95)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.visma.testtask.TestTaskApplicationTests.executeRequest(TestTaskApplicationTests.java:108)
+	at com.visma.testtask.TestTaskApplicationTests.all_inactive_are_returned_en(TestTaskApplicationTests.java:95)
+
+all_inactive_are_returned_lv  Time elapsed: 4.111 s  <<< ERROR!
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at com.visma.testtask.TestTaskApplicationTests.executeRequest(TestTaskApplicationTests.java:108)
+	at com.visma.testtask.TestTaskApplicationTests.all_inactive_are_returned_lv(TestTaskApplicationTests.java:82)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.visma.testtask.TestTaskApplicationTests.executeRequest(TestTaskApplicationTests.java:108)
+	at com.visma.testtask.TestTaskApplicationTests.all_inactive_are_returned_lv(TestTaskApplicationTests.java:82)
+
+all_institutions_are_returned_en  Time elapsed: 4.103 s  <<< ERROR!
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at com.visma.testtask.TestTaskApplicationTests.executeRequest(TestTaskApplicationTests.java:108)
+	at com.visma.testtask.TestTaskApplicationTests.all_institutions_are_returned_en(TestTaskApplicationTests.java:48)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.visma.testtask.TestTaskApplicationTests.executeRequest(TestTaskApplicationTests.java:108)
+	at com.visma.testtask.TestTaskApplicationTests.all_institutions_are_returned_en(TestTaskApplicationTests.java:48)
+
+all_institutions_are_returned_lv  Time elapsed: 4.116 s  <<< ERROR!
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at com.visma.testtask.TestTaskApplicationTests.executeRequest(TestTaskApplicationTests.java:108)
+	at com.visma.testtask.TestTaskApplicationTests.all_institutions_are_returned_lv(TestTaskApplicationTests.java:37)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.visma.testtask.TestTaskApplicationTests.executeRequest(TestTaskApplicationTests.java:108)
+	at com.visma.testtask.TestTaskApplicationTests.all_institutions_are_returned_lv(TestTaskApplicationTests.java:37)
+
